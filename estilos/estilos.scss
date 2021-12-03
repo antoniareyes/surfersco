@@ -1,0 +1,571 @@
+@import "variables";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#back-img{
+    background-image: url('../assets/img/header.jpg');
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+}
+
+.nav-link-a{
+    font-family: $font-monse;
+    font-size: 0.9rem;
+    color: $black;
+    text-decoration: none;
+    padding:1px; 
+    margin-left: 16px;
+
+    &:hover{
+        background-color: $light-blue;
+        color: $white;
+    }
+
+}
+
+.rrss{
+    a{
+        text-decoration: none;
+        color: $white;
+        background-color: $black;
+        font-size: 0.9rem;
+        padding: 11px 13px;
+        border-radius: 24px;
+
+        &:hover{
+            background-color: $grey;
+        }
+
+    }
+
+    .f{
+        padding: 10px 14px;
+    }
+
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.titulos{
+    font-family: $font-play;
+    font-style: italic;
+
+    h1{
+        font-size: 2.8rem;
+        color: $black;
+    }
+
+    h2{
+        font-size: 1.5rem;
+        color: $white;
+    }
+}
+
+.botones{
+    .amarillo{
+        width: 65px;
+        margin: 54% 0% 0% 76%;
+    }
+
+    button{
+        margin: 0;
+        background-color: $yellow;
+        border: none;
+        width: 30px;
+        height: 30px;
+        color: $white;
+    }
+
+    h5{
+        font-family: $font-monse;
+        font-weight: lighter;
+        color: $white;
+        background-color: $black;
+        width: 63px;
+        padding: 6px;
+        margin-left: 38%;
+    }
+}
+
+
+#about-us-text{
+    width: 70%;
+    margin: 15% 15% 0% 15%;
+}
+
+#our-team{
+    width: 70%;
+    margin: 10% 15% 0% 15%;
+}
+
+.circle-img{
+    width: 35%;
+}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+  
+    p {
+        text-align: center;
+    }
+  
+    label {
+        font-size: 20px;
+    }
+}
+
+input[type="radio"] {
+    display: none;
+}
+  
+label {
+    color: $grey;
+}
+  
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+  
+label:hover,
+label:hover ~ label {
+    color: $yellow;
+  }
+  
+input[type="radio"]:checked ~ label {
+    color: $yellow;
+}
+
+
+#col-tablas{
+    background-image: url('../assets/img/Corner.png');
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+}
+
+#col-text-tablas{
+    background-image: url('../assets/img/boards.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.cwhite{
+    width: 72%;
+    height: 80%;
+    background-color: $white;
+    box-shadow:  0px 0px 16px -3px $black;
+
+    img{
+        width:88%;
+    }
+
+    .img-menu{
+        width: 116%;
+        margin-left: -107%;
+        margin-top: 10%;
+
+        &:hover{
+            border: 1PX solid $light-blue;
+        }
+    }
+
+    .col-1{
+        margin-top: 10%;
+    }
+
+    h2{
+        font-family: $font-monse;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+}
+
+.nav-tabs{
+    .nav-item{
+        font-family: $font-rale;
+        font-size: 0.8rem;
+    }
+}
+
+#text-jr{
+    font-family: $font-rale;
+    font-size: 0.8rem;
+}
+
+.btn-primary{
+    font-family: $font-monse;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    background-color: $light-blue;
+    border: none;
+    border-radius: 0;
+    padding: 0.5rem 1.2rem 0.5rem 1.3rem;
+}
+
+.precio{
+    h3{
+        font-family: $font-monse;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .col{
+        margin-left: -8%;
+
+      
+    }
+
+    .btn-buy{
+        margin-left: -32%;
+    }
+
+}
+
+.link{
+    font-family: $font-monse;
+    font-size: 1rem;
+    color: $light-blue;
+    border-bottom: 1px;
+    border-color: $light-blue;
+}
+
+#img-about-us{
+    width: 100%;
+    margin-top: -8%;
+}
+
+.about-us-vid-text{
+    margin-top: -27%;
+    margin-left: -5%;
+
+
+    .white{
+        background-color: #fff;
+        .card{
+            border: none;
+            padding: 5% 8% 0% 50%;
+
+            h5{
+                font-family: $font-monse;
+                font-size: 1rem;
+                text-align: center;
+            }
+
+            p{
+                font-family: $font-play;
+                font-style: italic;
+                font-size: 0.9rem;
+            }
+        }
+    }
+    .vid{
+        margin: 20% 0% 0% 18%;
+        width: 107%;
+        height: 70%;
+        background-image: url('../assets/img/video.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        box-shadow: 0px 0px 5px 1px $black;
+
+
+        img{
+            width: 28%;
+            height: 50%;
+            
+        }
+
+    }
+    
+}
+
+
+.carousel-control-prev-icon {
+    margin-left: -210%;
+    background-color: $light-blue;
+    border-radius: 39px;
+    width: 33px;
+    background-size: 67%;
+    margin-bottom: 125%;
+}
+
+.carousel-control-next-icon {
+    margin-right: -210%;
+    background-color: $light-blue;
+    border-radius: 39px;
+    width: 33px;
+    background-size: 67%;
+    margin-bottom: 125%;
+}
+
+.behind{
+    margin-bottom: 20%;
+    z-index: 1;
+}
+
+.front{
+    margin-top: 20%;
+    z-index: 99;
+}
+
+.carousel-inner{
+    margin-top: -12%;
+    height: 340px;
+    padding: 2px;
+}
+
+.carousel-item{
+
+    .col{
+        .card{
+            border: none;
+            width: 50%;
+            box-shadow: 0px 0px 5px 1px $grey;
+            height: 82%;
+
+            h3{
+               font-family: $font-monse; 
+               font-size: 1.2rem;
+               font-weight: 200;
+               color: $light-blue;
+            }
+
+            i{
+                color: $grey;
+            }
+
+            p{
+              font-family: $font-rale; 
+              font-size: 0.9rem;
+              color: $grey; 
+            }
+
+            &:hover{
+                background-color: $light-blue;
+
+                h3{
+                    color: $white;
+                }
+
+                p{
+                    color: $light-blue-hover;
+                }
+
+                i{
+                    color: $blue-hover;
+                }
+            }
+        }
+    }
+}
+
+.last-updates{
+    padding: 0% 15% 0% 16%;
+    margin-top: 6%;
+    
+    h3{
+        font-family: $font-monse;
+        font-size: 1rem;
+    }
+
+    .card{
+        border: none;
+
+        p{
+            font-family: $font-rale;
+            font-size: 0.9rem;
+            color: $grey;
+        }
+
+        &:hover{
+            box-shadow:  0px 0px 16px -3px $grey;
+
+            p{
+                color: $blue-hover;
+            }
+        }
+    }
+}
+
+.container-ig{
+    position: absolute;
+    z-index:99;
+    width: 38%;
+    margin-top: 12%;
+
+    .row{
+        .col{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
+
+#facebook{
+    background-image: url('../assets/img/facebook.jpg');
+    background-repeat: no-repeat;
+    padding: 17% 9% 10% 9%;
+    background-size: 100%;
+    width: 77%;
+    height: 60%;
+    margin-top: 37%;
+
+    img{
+        width: 290px;
+    }
+}
+
+#col-img-tablas{
+    margin-top: 7%;
+}
+
+.footer{
+    position: relative;
+    z-index: 98;
+    padding-top: 4%;
+    background-color: $black;
+
+    ul{
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                
+                font-family: $font-rale;
+                color: $white;
+                font-size: 1rem;
+                font-weight: lighter;
+            }
+            i{
+                color: $yellow;
+                margin-left: 2px;
+            }
+        }
+    }
+
+    h4{
+        font-family: $font-monse;
+        font-size: 1.2rem;
+        color: $white;
+        font-weight: lighter;
+    }
+}
+
+.formulario{
+    margin: 5% 0% 5% 0%;
+
+    form{
+        margin-top: 4%;
+        i, input{
+            color: $grey;
+        }
+
+        input{
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid $grey;
+            font-family: $font-rale;
+        }
+    }
+}
+
+#enviar{
+    background-color: $light-blue;
+    border: none;
+    border-radius: 39px;
+    width: 25px;
+    height: 25px;
+
+    i{
+        color: $white;
+        font-size: .8rem;
+        
+    }
+
+    &:hover{
+        background-color: $light-blue-hover;  
+    }
+
+}
+
+#follow-us{
+    background-color: $white;
+
+    img{
+        margin: 6%;
+    }
+
+    p{
+        font-family: $font-rale;
+        font-size: 1rem;
+        margin-top: 13%;
+    }
+}
+
+footer{
+    i, p{
+        margin-top: 3%;
+        color: $dark-grey;
+        font-size: 0.7rem;
+        font-family: $font-rale;
+    }
+}
+
+@media (max-width: 1025px ) {
+    .carousel-about{
+      display: none;
+    }
+}
+  
+@media (max-width: 992px){
+    #col-text-tablas{
+      background-image: none;
+    }
+  
+    .cwhite .img-menu {
+      width: 87%;
+      margin-left: -86%;
+      margin-top: 53%;
+    }
+  
+    .precio .col {
+      margin-left: 0%;
+    }
+  
+    #face-insta{
+      display: none;
+    }
+    
+  
+}
+  
+  
+@media (max-width: 1159px){
+    #vid{
+      display: none;
+    }
+}
+  
+@media(max-width: 645px){
+    #we-are{
+      width: 160%;
+    }
+}
+  
+@media(max-width: 664px){
+    #insta{
+      display: none;
+    }
+}
+  

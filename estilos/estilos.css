@@ -1,0 +1,480 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#back-img {
+  background-image: url("../assets/img/header.jpg");
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+}
+
+.nav-link-a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  color: #000000;
+  text-decoration: none;
+  padding: 1px;
+  margin-left: 16px;
+}
+.nav-link-a:hover {
+  background-color: #00B0FF;
+  color: #fff;
+}
+
+.rrss a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000000;
+  font-size: 0.9rem;
+  padding: 11px 13px;
+  border-radius: 24px;
+}
+.rrss a:hover {
+  background-color: #A0A0A0;
+}
+.rrss .f {
+  padding: 10px 14px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.titulos {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+.titulos h1 {
+  font-size: 2.8rem;
+  color: #000000;
+}
+.titulos h2 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.botones .amarillo {
+  width: 65px;
+  margin: 54% 0% 0% 76%;
+}
+.botones button {
+  margin: 0;
+  background-color: #F2D800;
+  border: none;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+.botones h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #000000;
+  width: 63px;
+  padding: 6px;
+  margin-left: 38%;
+}
+
+#about-us-text {
+  width: 70%;
+  margin: 15% 15% 0% 15%;
+}
+
+#our-team {
+  width: 70%;
+  margin: 10% 15% 0% 15%;
+}
+
+.circle-img {
+  width: 35%;
+}
+
+#form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+#form p {
+  text-align: center;
+}
+#form label {
+  font-size: 20px;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+label {
+  color: #A0A0A0;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: #F2D800;
+}
+
+input[type=radio]:checked ~ label {
+  color: #F2D800;
+}
+
+#col-tablas {
+  background-image: url("../assets/img/Corner.png");
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+}
+
+#col-text-tablas {
+  background-image: url("../assets/img/boards.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.cwhite {
+  width: 72%;
+  height: 80%;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px -3px #000000;
+}
+.cwhite img {
+  width: 88%;
+}
+.cwhite .img-menu {
+  width: 116%;
+  margin-left: -107%;
+  margin-top: 10%;
+}
+.cwhite .img-menu:hover {
+  border: 1PX solid #00B0FF;
+}
+.cwhite .col-1 {
+  margin-top: 10%;
+}
+.cwhite h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.nav-tabs .nav-item {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+}
+
+#text-jr {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+}
+
+.btn-primary {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  background-color: #00B0FF;
+  border: none;
+  border-radius: 0;
+  padding: 0.5rem 1.2rem 0.5rem 1.3rem;
+}
+
+.precio h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.precio .col {
+  margin-left: -8%;
+}
+.precio .btn-buy {
+  margin-left: -32%;
+}
+
+.link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #00B0FF;
+  border-bottom: 1px;
+  border-color: #00B0FF;
+}
+
+#img-about-us {
+  width: 100%;
+  margin-top: -8%;
+}
+
+.about-us-vid-text {
+  margin-top: -27%;
+  margin-left: -5%;
+}
+.about-us-vid-text .white {
+  background-color: #fff;
+}
+.about-us-vid-text .white .card {
+  border: none;
+  padding: 5% 8% 0% 50%;
+}
+.about-us-vid-text .white .card h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.about-us-vid-text .white .card p {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+.about-us-vid-text .vid {
+  margin: 20% 0% 0% 18%;
+  width: 107%;
+  height: 70%;
+  background-image: url("../assets/img/video.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0px 0px 5px 1px #000000;
+}
+.about-us-vid-text .vid img {
+  width: 28%;
+  height: 50%;
+}
+
+.carousel-control-prev-icon {
+  margin-left: -210%;
+  background-color: #00B0FF;
+  border-radius: 39px;
+  width: 33px;
+  background-size: 67%;
+  margin-bottom: 125%;
+}
+
+.carousel-control-next-icon {
+  margin-right: -210%;
+  background-color: #00B0FF;
+  border-radius: 39px;
+  width: 33px;
+  background-size: 67%;
+  margin-bottom: 125%;
+}
+
+.behind {
+  margin-bottom: 20%;
+  z-index: 1;
+}
+
+.front {
+  margin-top: 20%;
+  z-index: 99;
+}
+
+.carousel-inner {
+  margin-top: -12%;
+  height: 340px;
+  padding: 2px;
+}
+
+.carousel-item .col .card {
+  border: none;
+  width: 50%;
+  box-shadow: 0px 0px 5px 1px #A0A0A0;
+  height: 82%;
+}
+.carousel-item .col .card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #00B0FF;
+}
+.carousel-item .col .card i {
+  color: #A0A0A0;
+}
+.carousel-item .col .card p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  color: #A0A0A0;
+}
+.carousel-item .col .card:hover {
+  background-color: #00B0FF;
+}
+.carousel-item .col .card:hover h3 {
+  color: #fff;
+}
+.carousel-item .col .card:hover p {
+  color: #B3E7FF;
+}
+.carousel-item .col .card:hover i {
+  color: #0A23FB;
+}
+
+.last-updates {
+  padding: 0% 15% 0% 16%;
+  margin-top: 6%;
+}
+.last-updates h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
+.last-updates .card {
+  border: none;
+}
+.last-updates .card p {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  color: #A0A0A0;
+}
+.last-updates .card:hover {
+  box-shadow: 0px 0px 16px -3px #A0A0A0;
+}
+.last-updates .card:hover p {
+  color: #0A23FB;
+}
+
+.container-ig {
+  position: absolute;
+  z-index: 99;
+  width: 38%;
+  margin-top: 12%;
+}
+.container-ig .row .col img {
+  width: 100%;
+}
+
+#facebook {
+  background-image: url("../assets/img/facebook.jpg");
+  background-repeat: no-repeat;
+  padding: 17% 9% 10% 9%;
+  background-size: 100%;
+  width: 77%;
+  height: 60%;
+  margin-top: 37%;
+}
+#facebook img {
+  width: 290px;
+}
+
+#col-img-tablas {
+  margin-top: 7%;
+}
+
+.footer {
+  position: relative;
+  z-index: 98;
+  padding-top: 4%;
+  background-color: #000000;
+}
+.footer ul li {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: lighter;
+}
+.footer ul li i {
+  color: #F2D800;
+  margin-left: 2px;
+}
+.footer h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.formulario {
+  margin: 5% 0% 5% 0%;
+}
+.formulario form {
+  margin-top: 4%;
+}
+.formulario form i, .formulario form input {
+  color: #A0A0A0;
+}
+.formulario form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #A0A0A0;
+  font-family: "Raleway", sans-serif;
+}
+
+#enviar {
+  background-color: #00B0FF;
+  border: none;
+  border-radius: 39px;
+  width: 25px;
+  height: 25px;
+}
+#enviar i {
+  color: #fff;
+  font-size: 0.8rem;
+}
+#enviar:hover {
+  background-color: #B3E7FF;
+}
+
+#follow-us {
+  background-color: #fff;
+}
+#follow-us img {
+  margin: 6%;
+}
+#follow-us p {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  margin-top: 13%;
+}
+
+footer i, footer p {
+  margin-top: 3%;
+  color: #4D4D4D;
+  font-size: 0.7rem;
+  font-family: "Raleway", sans-serif;
+}
+
+@media (max-width: 1025px) {
+  .carousel-about {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #col-text-tablas {
+    background-image: none;
+  }
+
+  .cwhite .img-menu {
+    width: 87%;
+    margin-left: -86%;
+    margin-top: 53%;
+  }
+
+  .precio .col {
+    margin-left: 0%;
+  }
+
+  #face-insta {
+    display: none;
+  }
+}
+@media (max-width: 1159px) {
+  #vid {
+    display: none;
+  }
+}
+@media (max-width: 645px) {
+  #we-are {
+    width: 160%;
+  }
+}
+@media (max-width: 664px) {
+  #insta {
+    display: none;
+  }
+}/*# sourceMappingURL=estilos.css.map */
